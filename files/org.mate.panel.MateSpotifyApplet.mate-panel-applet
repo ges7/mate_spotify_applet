@@ -1,0 +1,15 @@
+# to put in /usr/share/mate-panel/applets/
+
+[Applet Factory]
+Id=MateSpotifyAppletFactory
+InProcess=false
+Location=/home/gabriel/dev/dbus_spotify/mate_spotify_applet.py
+Name=Mate Spotify Applet Factory
+Description=A MATE Spotify Applet
+ 
+[MateSpotifyApplet]
+Name=Mate Spotify Applet
+Description=A MATE Spotify Applet
+Icon=mate-spotify-applet-icon
+MateComponentId=OAFIID:MATE_MateSpotifyApplet;
+

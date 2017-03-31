@@ -1,0 +1,6 @@
+# to put in /usr/share/dbus-1/services/
+
+[D-BUS Service]
+Name=org.mate.panel.applet.MateSpotifyAppletFactory
+Exec=/home/gabriel/dev/dbus_spotify/mate_spotify_applet.py
+
