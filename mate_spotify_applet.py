@@ -26,11 +26,12 @@ from gi.repository import GLib
 import logging
 import logging.handlers
 
-LOG_FILENAME = '/home/gabriel/dev/dbus_spotify/applet.log'
+ourpath = os.path.dirname(os.path.realpath(__file__))
+LOG_FILENAME = ourpath+'/applet.log'
 
 # Set up a specific logger with our desired output level
 _log = logging.getLogger('Mate_Spotify_Applet_Logger')
-_log.setLevel(logging.DEBUG)
+_log.setLevel(logging.INFO)
 
 # Add the log message handler to the logger
 handler = logging.handlers.RotatingFileHandler(
